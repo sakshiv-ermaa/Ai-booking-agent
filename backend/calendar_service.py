@@ -8,7 +8,7 @@ import pytz
 
 # Configuration
 TIMEZONE = pytz.timezone("Asia/Kolkata")
-SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_CREDS_PATH", "backend/credentials.json")
+SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_CREDS_PATH", "credentials.json")
 CALENDAR_ID = "da4bbeac9b6f10db027aed50b445f6c0772b50ce191bfa35ff550b7ecdc9b53b@group.calendar.google.com"
 
 # Initialize service
