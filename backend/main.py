@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Query, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from .agents import run_conversation, ConversationState
-from .db import SessionLocal, init_db, Conversation
+from backend.agents import run_conversation, ConversationState
+from backend.db import SessionLocal, init_db, Conversation
 import logging
 
 

@@ -2,8 +2,8 @@
 from langgraph.graph import StateGraph, END
 from typing import TypedDict
 from datetime import datetime, timedelta
-from .utils import extract_multiple_datetimes, is_weekend, format_nice, get_next_weekday
-from .calendar_service import is_slot_available, book_event, suggest_next_available
+from backend.utils import extract_multiple_datetimes, is_weekend, format_nice, get_next_weekday
+from backend.calendar_service import is_slot_available, book_event, suggest_next_available
 import logging
 
 logger = logging.getLogger(__name__)
