@@ -19,28 +19,12 @@ A smart assistant that books appointments directly into your Google Calendar usi
 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-appointment-scheduler.git
-cd ai-appointment-scheduler
+git clone https://github.com/sakshiv-ermaa/TailorTalk_assignment.git
+cd TailorTalk
 pip install -r requirements.txt
-Set up credentials
 
-Put your Google service account key in backend/credentials.json
-
-Share your calendar with that email
-
-Create .env
-
-env
-Copy
-Edit
-GOOGLE_CREDS_PATH=backend/credentials.json
-CALENDAR_ID=your_calendar_id@group.calendar.google.com
-Start the app
-
-bash
-Copy
-Edit
 uvicorn backend.main:app --reload
+install streamlit
 streamlit run frontend/app.py
 
 💬 Example inputs
