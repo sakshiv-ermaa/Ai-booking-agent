@@ -39,7 +39,7 @@ if prompt := st.chat_input("Example: 'Book Friday at 2pm'"):
 
     try:
         response = requests.post(
-            "hhttps://fastapi-backend-ceps.onrender.com/chat",
+            "https://fastapi-backend-ceps.onrender.com/chat",
             params={
                 "message": prompt,
                 "session_id": st.session_state.session_id
